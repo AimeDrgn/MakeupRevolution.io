@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="assets/fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="assets/css/css/login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link href="//fonts.googleapis.com/css?family=Hind:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=latin-ext"
+          rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Great+Vibes&amp;subset=latin-ext" rel="stylesheet">
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo2.png" class="logo img-fluid" alt="">MakeupRevolution
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-toggle" aria-controls="navbarNavAltMarkup"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-toggle " id="navbarNavAltMarkup">
+            <ul class="navbar-nav mx-lg-auto">
+                <li>
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="lipstick.html" role="button" aria-haspopup="true"
+                       aria-expanded="false">Products
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </a>
+                    <div class="dropdown-menu second mt-2" style="display: none;">
+                        <a class="dropdown-item" href="lipstick.html">Lipstick</a>
+                        <a class="dropdown-item" href="eyeshadow.html">Eyeshadow</a>
+                        <a class="dropdown-item" href="blush.html">Blush</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="eyeliner.html">Eyeliner</a>
+                        <a class="dropdown-item" href="faceproducts.html">Face Products</a>
+                    </div>
+
+                </li>
+                <li>
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <div class="header-social-w3ls text-center mt-lg-0 mt-4">
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="mx-1">
+                        <a href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <a href="cart.html">
+                        <i class="fa fa-shopping-cart" style="font-size:24px;color:red"></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<body>
+
+<div class="main">
+
+    <!-- Sign up form -->
+    <section class="signup">
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-form">
+                    <h2 class="form-title">Sign up</h2>
+                    <form method="POST" class="register-form" id="register-form">
+                        <div class="form-group">
+                            <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                            <input type="text" name="name" id="name" placeholder="Your Name"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="email"><i class="zmdi zmdi-email"></i></label>
+                            <input type="email" name="email" id="email" placeholder="Your Email"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                            <input type="password" name="pass" id="pass" placeholder="Password"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+                            <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                            <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                        </div>
+                        <div class="form-group form-button">
+                            <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/>
+                        </div>
+                    </form>
+                </div>
+                <div class="signup-image">
+                    <figure><img src="assets/images/ian-dooley-k8OCHhEymME-unsplash.jpg" alt="sing up image"></figure>
+                    <a href="#" class="signup-image-link">I am already member</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sing in  Form -->
+    <section class="sign-in">
+        <div class="container">
+            <div class="signin-content">
+                <div class="signin-image">
+                    <figure><img src="assets/images/oladimeji-odunsi-wecunh3nBrA-unsplash.jpg" alt="sing up image"></figure>
+                    <a href="#" class="signup-image-link">Create an account</a>
+                </div>
+
+                <div class="signin-form">
+                    <h2 class="form-title">Sign In</h2>
+                    <form method="POST" class="register-form" id="login-form">
+                        <div class="form-group">
+                            <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                            <input type="text" name="your_name" id="your_name" placeholder="Your Name"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
+                            <input type="password" name="your_pass" id="your_pass" placeholder="Password"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
+                            <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
+                        </div>
+                        <div class="form-group form-button">
+                            <input type="submit" name="signin" id="signin" class="form-submit" value="Log in"/>
+                        </div>
+                    </form>
+                    <div class="social-login">
+                        <span class="social-label">Or login with</span>
+                        <ul class="socials">
+                            <li><a href="#"><i class="display-flex-center zmdi zmdi-facebook"></i></a></li>
+                            <li><a href="#"><i class="display-flex-center zmdi zmdi-twitter"></i></a></li>
+                            <li><a href="#"><i class="display-flex-center zmdi zmdi-google"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+</body>
+
+<!-- footer -->
+<footer class="footer-emp-w3ls py-5">
+    <div class="container py-xl-5 py-lg-3">
+        <div class="row footer-top">
+            <div class="col-lg-5 footer-grid-wthree">
+                <h1 class="footer-title text-white mb-4">Get In Touch</h1>
+                <div class="contact-info">
+                    <h4 class="text-light text-uppercase mb-2">Location :</h4>
+                    <p>24 Belgrave Road <span>London</span></p>
+                    <div class="phone mt-4 pt-2">
+                        <h4 class="text-light text-uppercase mb-2">Contact :</h4>
+                        <p>Phone : +121 098 8907 9987</p>
+                        <p>Email :
+                            <a href="mailto:info@example.com">makeuprevolution@info.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 footer-grid-wthree mt-lg-0 mt-4">
+                <h2 class="footer-title text-white mb-4">Quick Links</h2>
+                <ul class="links list-unstyled">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="my-2">
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a class="scroll" href="#products">Products</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 footer-grid-wthree mt-lg-0 mt-5">
+                <div class="footer-title">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/logo.png" class="logo img-fluid" alt="">MakeupRevolution
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- //footer -->
+
+<script src="assets/js/jquery-2.2.3.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $(".dropdown").hover(
+            function () {
+                $('.dropdown-menu', this).stop(true, true).slideDown("fast");
+                $(this).toggleClass('open');
+            },
+            function () {
+                $('.dropdown-menu', this).stop(true, true).slideUp("fast");
+                $(this).toggleClass('open');
+            }
+        );
+    });
+</script>
+
+<script>
+    $(window).scroll(function () {
+        if ($(document).scrollTop() > 50) {
+            $('nav').addClass('shrink');
+        } else {
+            $('nav').removeClass('shrink');
+        }
+    });
+
+</script>
+
+<script src="assets/js/carousel.js"></script>
+<link rel="stylesheet" href="assets/css/carousel.css" type="text/css" media="all" />
+
+<script src="assets/js/SmoothScroll.min.js"></script>
+<!-- move-top -->
+<script src="assets/js/move-top.js"></script>
+<!-- easing -->
+<script src="assets/js/easing.js"></script>
+
+<script src="assets/js/makeuprevolution.js"></script>
+
+<script src="assets/js/bootstrap.js"></script>
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="assets/js/main.js"></script>
+</html>
